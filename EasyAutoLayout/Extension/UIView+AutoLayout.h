@@ -36,7 +36,6 @@ typedef enum {
 /**宽高约束*/
 - (NSLayoutConstraint*)RT_AlignInnerWidth:(CGFloat)hight;
 - (NSLayoutConstraint*)RT_AlignInnerHight:(CGFloat)hight;
-- (NSArray*)rt_sizeConstraints:(CGSize)size;
 /** 填充子视图*/
 - (NSArray*)RT_Fill:(UIView*)referView;
 - (NSArray*)RT_FillWithInsets:(UIEdgeInsets)insets  referView:(UIView*)referView;
